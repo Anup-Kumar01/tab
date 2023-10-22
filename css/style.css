@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.tabs-cover{
+	width: 644px;
+	margin: 0px auto;
+	padding-top:5px ;
+}
+.tab-btn{
+	display: inline-block;
+	padding: 15px 34px;
+	background: #222;
+	color: #fff;
+	cursor: pointer;
+}
+.tabs{
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	background: #08c;
+	color: #fff;
+	font-size: 14px;
+}
+
+/* testimonial section start */
+
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	margin-top: 40px;
+	background:url("../images/bg.jpg") center top no-repeat;
+	background-size: cover;
+}
+.testimonial .title{
+	text-align: center;
+}
+.testimonial .title h1{
+	color: #fff;
+	font-size: 42px;
+	line-height: 1.2em;
+	font-weight: 700;
+	padding: 0px 0px 20px;
+}
+
+.testimonial .owl-carousel .item h4{
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 1.5em;
+	color: #fff;
+	font-style: italic;
+	margin: 30px;
+}
+.testimonial .owl-carousel .item img{
+	width: 80px;
+	height: 75px;
+	border-radius: 100%;
+}
+.testimonial .owl-carousel .item p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height:1.7em;
+	margin: 12px 0px;
+}
+.testimonial .owl-carousel .item p span{
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.testimonial .owl-theme .owl-nav.disabled+ .owl-dots{
+	margin-top: 80px;
+}
+.testimonial .owl-theme .owl-dots .owl-dot span{
+	background: transparent;
+	border: 1px solid #fff;
+}
+.testimonial .owl-dots .owl-dot.active span{
+	background: #fff;
+	height: 15px;
+	width: 15px;
+	margin: 10px 7px 3px;
+}
+/* testimonial section end */
